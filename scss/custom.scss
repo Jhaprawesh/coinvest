@@ -1,0 +1,35 @@
+@import "./index.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e4e5;
+}
+
+.offcanvas {
+  .offcanvas-title {
+    img {
+      width: 100px;
+
+      height: 75px;
+      object-fit: cover;
+    }
+  }
+  .offcanvas-body {
+    ul {
+      color: green;
+    }
+  }
+}
+
+.hero-image__figure {
+  background: linear-gradient(
+    135deg,
+    rgba(252, 251, 255, 1) 30%,
+    rgba(0, 0, 0, 1) 20%
+  );
+}
